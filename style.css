@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Caveat:wght@700&family=Courgette&family=Dancing+Script&family=Frijole&family=Lobster&family=Lora:ital@1&family=Oswald:wght@300&family=Poppins:ital,wght@0,700;0,800;1,600;1,700&display=swap');
+
+
+nav{
+    background-color: rgb(29, 245, 202);
+    /* display: flex; */
+    text-align: right;
+    justify-content: space-around;
+    position: sticky;
+    height: 65px;
+    top: 0;
+    width: 100%;
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    padding-top:30px;
+}
+nav ul li a{
+    /* display: flex; */
+    
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(52, 93, 77);
+   
+}
+nav ul li a:hover{
+    color: rgb(214, 93, 36);
+}
+video{
+    width: 70%;
+}
+h2{
+   color: rgb(11, 59, 62);
+   font-family: 'Frijole', cursive;
+   font-size: xx-large;
+
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+   
+}
+#home::before{
+    content: "";
+    background-image: url('https://image.cnbcfm.com/api/v1/image/102500037-20150309-8492-1119.jpg?v=1531249130');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    
+}
+.main{
+    position: absolute;
+    padding: 100px;
+    top: 100px;
+    left: 20%
+    
+}
+.row1{
+    background-color:rgb(194, 230, 216) ;
+}
+ h1{
+    text-align: center;
+    color: rgb(4, 71, 49);
+    font-weight:900;
+    margin: 10px;
+    text-decoration: solid;
+}
+h3:hover{
+    text-shadow: 3px 4px 7px rgb(2, 44, 30);
+
+}
+.col{
+   display: flex;
+  
+}
+.col p{
+    text-align: justify;
+    margin: 50px;
+}
+row{
+    display: flex;
+   
+}
+.row{
+    display: flex;
+}
+.box{
+    
+    width: 300px;
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    border: 3px solid rgb(83, 152, 149);
+    /* hover effect */
+    background: linear-gradient(to top,rgb(4, 110, 96) 40%,rgb(148, 219, 215) 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    }
+    .box:hover{
+    background-color:rgb(148, 219, 215);
+    /* remove border and display shadow */
+    border: none;
+    box-shadow: 3px 3px 7px rgb(4, 70, 53);
+    /* hover effects-> */
+    background-position: left bottom;
+    border-radius: 20%;
+    
+    }
+    .box h4{
+     text-align: center;
+     color: rgb(123, 4, 66);
+    }
+    .box p{
+        margin: 20px;
+    }
+    .box img{
+        width: 100%;
+        height: 200px;
+        border-radius: 20%;
+    }
+    section{
+        background-color:rgb(194, 230, 216) ;
+        margin: 0;
+    }
+    .p1{
+        width:70%;
+       
+       text-align: justify;
+        margin: 5px;
+
+    }
+    #career{
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+    }
+    .p2{
+        width:30%;
+       }
+    h4{
+        text-align: left;
+        color: rgb(4, 71, 49);
+    }
+    .p2 img{
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-right: 70px;
+
+    }
+    .mfoot{
+        display: flex;
+        background-color: black;
+        height: 200px;
+        color: rgb(42, 195, 195);
+    }
+    .fcol{
+        width: 800px;
+        margin-left: 150px;
+    }
+       
+.mfoot h4{
+    color: aqua;
+    size: 450px;
+}
+.fcol i{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.img1:hover {
+    transform: scaleX(-1);
+  }
+  .img2:hover {
+    transform: scaleX(-1);
+  }
+  .img3:hover {
+    transform: scaleX(-1);
+  }
+  .img4:hover {
+    transform: scaleX(-1);
+  }
+  .img5:hover {
+    transform: scaleX(-1);
+  }
+  .img6:hover {
+    transform: scaleX(-1);
+  }
+   #location{
+   
+   padding: 30px;
+   }
+   .lifetime img{
+    width: 100%;
+
+   }
+ .lifetime img:hover{
+    box-shadow: 5px 6px 8px aquamarine;
+ }
